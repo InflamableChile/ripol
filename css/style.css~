@@ -1,0 +1,451 @@
+/* Fonts */
+@font-face {
+    font-family: 'MuseoSans-100';
+    src: url('../fonts/../fonts/MuseoSans-100.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-100.otf')  format('opentype'),
+        url('../fonts/MuseoSans-100.woff') format('woff'), url('../fonts/MuseoSans-100.ttf')  format('truetype'), url('../fonts/MuseoSans-100.svg#MuseoSans-100') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans-100Italic';
+    src: url('../fonts/MuseoSans-100Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-100Italic.otf')  format('opentype'),
+        url('../fonts/MuseoSans-100Italic.woff') format('woff'), url('../fonts/MuseoSans-100Italic.ttf')  format('truetype'), url('../fonts/MuseoSans-100Italic.svg#MuseoSans-100Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans-300';
+    src: url('../fonts/MuseoSans-300.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-300.otf')  format('opentype'),
+        url('../fonts/MuseoSans-300.woff') format('woff'), url('../fonts/MuseoSans-300.ttf')  format('truetype'), url('../fonts/MuseoSans-300.svg#MuseoSans-300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans-300Italic';
+    src: url('../fonts/MuseoSans-300Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-300Italic.otf')  format('opentype'),
+        url('../fonts/MuseoSans-300Italic.woff') format('woff'), url('../fonts/MuseoSans-300Italic.ttf')  format('truetype'), url('../fonts/MuseoSans-300Italic.svg#MuseoSans-300Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans-500';
+    src: url('../fonts/MuseoSans-500.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-500.otf')  format('opentype'),
+        url('../fonts/MuseoSans-500.woff') format('woff'), url('../fonts/MuseoSans-500.ttf')  format('truetype'), url('../fonts/MuseoSans-500.svg#MuseoSans-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans-500Italic';
+    src: url('../fonts/MuseoSans-500Italic.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSans-500Italic.otf')  format('opentype'),
+        url('../fonts/MuseoSans-500Italic.woff') format('woff'), url('../fonts/MuseoSans-500Italic.ttf')  format('truetype'), url('../fonts/MuseoSans-500Italic.svg#MuseoSans-500Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSlab-500';
+    src: url('../fonts/MuseoSlab-500.eot?#iefix') format('embedded-opentype'),  url('../fonts/MuseoSlab-500.otf')  format('opentype'),
+        url('../fonts/MuseoSlab-500.woff') format('woff'), url('../fonts/MuseoSlab-500.ttf')  format('truetype'), url('../fonts/MuseoSlab-500.svg#MuseoSlab-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.ms100 {
+    font-family: 'MuseoSans-100' !important;
+}
+.ms100i {
+    font-family: 'MuseoSans-100Italic' !important;
+}
+.ms300 {
+    font-family: 'MuseoSans-300' !important;
+}
+.ms300i {
+    font-family: 'MuseoSans-300Italic' !important;
+}
+.ms500 {
+    font-family: 'MuseoSans-500' !important;
+}
+.ms500i {
+    font-family: 'MuseoSans-500Italic' !important;
+}
+.msl500 {
+    font-family: 'MuseoSlab-500' !important;
+}
+
+/* General */
+
+body {
+    background-color: #fff;
+}
+.container {
+    min-width: 768px !important;
+    width: 100% !important;
+    height: auto;
+}
+.nopad {
+    padding: 0 0 0 0 !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:focus {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+/* Top Box*/
+
+.topBox {
+    position: relative;  
+}
+.topSocial {
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    z-index: 10;
+    width: 13% !important;
+}
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+a:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+.topMenu {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    font-size: 23px;
+    color: #7E076F;
+    text-align: center;
+}
+#topMenu ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#topMenu li {
+    display: inline; 
+    padding: 19px; 
+}
+#topMenu a:hover {
+    color: #C42CAE;
+}
+
+/* First Box */
+
+.firstBox {
+    position: relative;
+}
+.concursoTop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 63.5%;
+}
+.basesBT {
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    width: 9%;
+    z-index: 10;
+}
+
+/* Form Box */
+
+.formBox {
+    position: relative;
+}
+.formbg {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    width: 47%;
+    height: 100%;
+    background-image: url(../img/formbg.png);
+    background-size: cover;
+}
+.sliderLemas {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    width: 45% !important;
+    height: 50% !important;
+    padding: 0%;
+}
+.formTop {
+    top: 30.5%;
+    right: 3%;
+    position: absolute;
+    width: 60%; 
+}
+
+#formTop input {
+    width: 96%;
+    margin-bottom: 4%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-width: 0px;
+    padding-left: 10px;
+}
+@media screen and (min-width: 1700px) {
+    #formTop input {
+        margin-bottom: 6%;
+    }
+}
+
+#formBottom textarea {
+    width: 96%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-width: 0px;
+    padding-left: 10px;
+    resize: none;
+}
+#formBottom input {
+    float: right;
+    position: absolute;
+    right: 1%;
+    top: 90%;
+    width: 30%;
+}
+.formBottom {
+    top: 58%;
+    right: 3%;
+    position: absolute;
+    width: 75%;
+}
+#fbshare {
+    position: absolute;
+    top: 18%;
+    right: 0;
+    background-image: url(../img/textComparte.png);
+    background-size: cover;
+    width: 45%;
+    height: 50%;
+    display: none;
+}
+.fbBT {
+    position: absolute;
+    top: 100%;
+    right: 26%;
+    width: 40%;
+}
+/* Second Box */
+
+.secondBox {
+    position: relative;
+}
+.secondBoxOver {
+    z-index: 40;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 57%;
+}
+.btInt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 91%;
+    height: 100%;
+}
+.carousel-control2 {
+    text-shadow: none !important;
+}
+.sliderMand {
+    position: absolute;
+    top: 15%;
+    right: 4%;
+    width: 45% !important;
+    height: 50% !important;
+    padding: 6%;
+}
+
+/* Third Box */
+
+.thirdBox {
+    position: relative;
+    z-index: 60;
+}
+.productOver {
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btHide {
+    z-index: 10;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+    width: 25%;
+    height: 20%;
+    background-image: url(../img/btProductos.png);
+    background-size: cover;
+}
+@media screen and (min-width: 768px) {
+    .carousel-indicators {
+        bottom: -40% !important;
+    }
+}
+.carousel-indicators {
+    bottom: -50% !important;
+}
+.carousel-indicators .active {
+    background-color: #E06FE4 !important;
+}
+.sliderBG {
+}
+.sliderOver {
+    position: absolute;
+    top: 15%;
+    left: 11%;
+    z-index: 8;
+    width: 80% !important;
+    height: 50% !important;
+}
+.carousel-control {
+    text-shadow: none !important;
+}
+.carousel-control.left {
+    left: -8% !important;;
+    left: auto;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    right: -8% !important;
+    left: auto;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+/* Fourth Box */
+
+.fourthBox {
+    position: relative;
+    z-index: 100;
+}
+.vidYT {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 85%;
+}
+
+/* Foot Box */
+
+.footBox {
+    position: relative;
+}
+.footSocial {
+    position: absolute;
+    top: 50%;
+    left: 41.5%;
+    width: 25%;
+}
+
+
+
+.carousel-indicators li {
+    border: 1px solid #ECAEDB !important;
+}
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    right: 10px; /* padding from the left side of the window */
+    z-index: 9999;
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+    z-index: 9999;
+}
+.carousel-inner {
+    position: relative;
+    width: 75%;
+    overflow: hidden;
+    margin-left: 12.5%;
+}
+.ci2 {
+    bottom: -30% !important;
+    width: 15% !important;
+    right: 50%;
+    margin-left: 0%;
+    left: 42% !important;
+}
+.ci2 .active {
+    background-color: #E06FE4 !important;
+}
+.ccl.left {
+    left: 2% !important;
+    top: 40% !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.ccr.right {
+    right: -2% !important;
+    top: 40% !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carinn2 {
+    width: 90% !important;
+    margin-left: 8%;
+}
+.carinn3 {
+    width: 100% !important;
+    margin-left: 0%;
+}
+
+body {
+	overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../img/status.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
